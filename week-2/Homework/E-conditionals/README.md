@@ -27,22 +27,22 @@ if (true) {
 
 // variable assigned to boolean value
 if (isHappy) {
-  // do something
+  console.log("I am feeling happy");// do something
 }
 
 // equality operator returns a boolean value
 if (1 + 1 === 2) {
-  // do something
+  return true;// do something
 }
 
 // comparison operator returns a boolean value
 if (10 > 5) {
-  // do something
+  return true;// do something
 }
 
 // function call returns boolean value
 if (greaterThan10(5)) {
-  // do something
+  return false;// do something
 }
 ```
 

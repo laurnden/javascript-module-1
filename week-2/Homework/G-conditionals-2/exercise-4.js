@@ -4,12 +4,15 @@
   Write a function that checks if a sentence contains the word "code"
   - if the sentence contains the word "code" then return true
   - otherwise return false
-
   Hint: Google how to check if a string contains a word
 */
 
 function containsCode(sentence) {
-
+  if (sentence.includes("code")) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /* 

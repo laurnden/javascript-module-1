@@ -1,18 +1,21 @@
 /*
    This program should check if the array `group` contains only students
+   USE EVERY AND INCLUDES METHOD
 */
 
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-var groupIsOnlyStudents; // complete this statement
 
-if (groupIsOnlyStudents) {
-  console.log("The group contains only students");
-} else {
-  console.log("The group does not contain only students");
+var studentsWhoAreInGroup = group.every(groupStudent => students.includes(groupStudent));
+
+if(studentsWhoAreInGroup == true){
+   console.log("Group contains all the students");
+}else{
+   console.log("Does Not contain all the students");
 }
 
-/* EXPECTED RESULT */
 
-// The group does not contain only students
+
+
+

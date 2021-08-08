@@ -3,3 +3,10 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+function multiply(numbers){
+    return numbers * 100;
+
+}
+
+var result = numbers.map(multiply);
+console.log(result);

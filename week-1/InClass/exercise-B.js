@@ -1,0 +1,12 @@
+console.log("Hallo peeps");
+console.log("Hola a vos!");
+console.log("Bonjour!");
+console.log("Guten morgen");
+console.log("Bom dia!");
+console.log("Salut!");
+console.log("Hallo peeps");
+console.log("Halo, dunia");
+console.log("Ciao, mundo!");
+console.log("Hola, mundo!");
+var greetings = "World";
+console.log("Hello, " + greetings);
